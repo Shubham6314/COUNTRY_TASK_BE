@@ -1,5 +1,6 @@
 const axios = require("axios");
-const ApiError = require("../utils/ApiError.js");
+const ApiError = require("../utils/apiError.js");
+
 exports.getCountries = async (req, res, next) => {
   const { name } = req.query;
 
